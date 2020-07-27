@@ -1,0 +1,264 @@
+void func(int n){
+int i,j,x = 0;
+	for(i = 0;i < n;++i)
+	{
+		for(j =i + 1;j < n;++j)
+		{
+			++x;
+		}
+	}
+}
+
+O(n^2)
+
+int a[10];
+线性表的基本概念
+1.顺序表
+2.链表
+1.存储方式的对比
+   1.顺序存储
+   2.链式存储
+1.访问特性的区别
+**顺序表支持随机(直接访问)访问:
+用一定的方式直接算出下标(内存地址).
+a[i] ==  *(&a + sizeof(int) * i)
+链表不支持随机访问,间接访问
+2.存储分配的区别
+**顺序表要求占用连续的内存空间,一般空间大小定义之后不可变化
+
+   链表可以动态分配,定义之后可以按需扩展或缩短
+3.插入和删除操作的区别(数学描述)
+
+链表插入和删除操作开销较小,O(1)
+顺序表插入和删除操作开销和插入位置有关,平均O(n)
+**顺序表插入和删除平均移动元素的个数E = (n-1)/2
+
+
+(默认有头节点)
+链表和特殊链表
+1.单链表
+只有指向后继的指针
+2.双向链表
+有指向前驱和后继的指针
+3.循环单链表
+尾节点的后继指针指向头节点
+4.循环双链表
+有指向前驱和后继的指针的循环链表
+5.静态链表
+用二维数组实现,用后继的下标来代替指针
+
+2->1->3->4->5
+
+p = NULL;
+实现:
+
+顺序表的实现
+
+
+typedef struct {
+int data[MAX];
+int length;
+}sqList;
+
+
+结构体实现,封装一个数组和一个变量
+L->data[i];
+L->length;
+
+应该实现的操作:
+1.查找
+for(...)
+{
+ if(L->data[i] == x) return i;
+}
+2.插入
+3.删除
+4.遍历
+
+
+链表的实现
+
+1.插入
+头插法
+头插法构造:a = [1,2,3,4,5]
+h->5->4->3->2->1
+a = [1,2,3,4,5]
+
+
+typedef struct LNode 
+{
+int data;
+LNode *next;
+}
+
+LNode* head;
+head = (LNode *)malloc(sizeof(LNode));
+head->next = Null;
+--------------
+LNode* createLinkList(int a[]) {
+LNode* head;
+head = (LNode *)malloc(sizeof(LNode));
+head->next = Null;
+for(int j = 0;j < n -1;j++)
+{
+int i = a[j];
+s = (LNode *)malloc(sizeof(LNode));
+s->data = i;
+s->next = Null;
+s->next = head->next;//**
+head->next = s;//**
+}
+return head;
+}
+尾插法
+算法要维护一个尾指针r,指向链表中当前的尾部节点
+头插法构造:a = [1,2,3,4,5];
+h->1->2->3->4->5
+a = [1,2,3,4,5]
+
+LNode* createLinkList(int a[]){
+LNode* head;
+head = (LNode *)malloc(sizeof(LNode));
+head->next = Null;
+LNode r;
+r = head;
+for(int j = 0;j < n -1;j++)
+{
+int i = a[j];
+LNode *s;
+s = (LNode *)malloc(sizeof(LNode));
+s->data = i;
+r->next = s;//
+r = r->next;//
+}
+return head;
+}
+//O(n),O(n)
+2.查找
+遍历每一个元素
+//List是已经定义了的链表,找一个值为i的链表节点,返回该节点的内存地址(指针)
+LNode* find(LNode* List,int i)
+{
+    LNode* n;
+    n = List->next;
+    while(n != Null)
+    {
+        if(n->data == i)
+        return n;
+        n= n->next;
+    }
+    return Null;//没找到
+}
+3.删除
+
+//List是已经定义了的链表,找一个值为i的链表节点,删除它
+void find(LNode* List,int i)
+{
+    LNode* pre,n;
+    n = List->next;
+    while(n != NULL)
+    {
+        if(n->data == i)
+        {
+            pre->next = n->next;
+            free(n);
+            return;
+        }
+        pre = n;
+        n = n->next;
+    }
+
+}
+4.遍历
+void traverse(LNode* List)
+{
+    LNode* n;
+    n = List->next;
+    while(n != Null)
+    {
+        cout<< (n->data);
+        n = n->next;
+    }
+
+}
+
+
+
+特殊链表
+1.双链表
+注意插入和删除的时候   不能断链   
+
+
+typedef struct LNode 
+{
+int data;
+LNode *prev;
+LNode *next;
+}
+
+断链就是失去与后续节点的联系,再也找不到他们的内存地址
+2.循环链表
+如何判断当前节点是否为尾节点?
+node->next == head;
+
+
+
+初始化数组为全零:
+int A[10];
+memset(A,0,sizeof(int) * n);
+
+
+
+单链表的头指针,尾指针,头节点
+尾指针适用于经常进行链尾操作的场合.
+头指针用于传递链表.
+头节点是为了省去对第一个节点操作的特别对待,操作统一化.
+
+
+
+分治法的时间复杂度分析
+1.确定子问题规模
+2.确定递归返回边界
+
+O(nlog n)
+
+
+链表合并  算法
+P29 例题2-3
+
+两个链表合并成一个递增链表
+
+void merge(Node* A,Node* B,Node* C){
+
+Node* p,q,r;
+p = A->next;
+q = B->next;
+C = A;
+r = C;
+
+while(p != NULL&q != NULL)
+{
+if(p->data <= q->data)
+{
+r->next =p;
+p = p->next;
+r= r->next;
+}
+else{
+r->next =q;
+q = q->next;
+r= r->next;//把较小的节点连接到C链表尾部
+}
+}
+r->next =NULL;
+
+
+
+if(p != NULL) r->next = p;
+if(q != NULL) r->next = q;
+}
+
+
+
+
+
