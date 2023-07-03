@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cbc5653a074189cc",
+        "id": "8f9fc4a96866193d",
         "type": "tabs",
         "children": [
           {
-            "id": "59e6d946032b22c1",
+            "id": "96ef43fa1d23fe5b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "组会/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0a5496abe741870f",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "组会/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "组会/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "组会/Untitled.md"
+              }
             }
           }
         ]
@@ -144,11 +153,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "59e6d946032b22c1",
+  "active": "96ef43fa1d23fe5b",
   "lastOpenFiles": [
+    "Untitled.md",
+    "组会/Untitled.md",
+    "Archieve/新建文本文档.md",
+    "Archieve",
+    "Archieve/README.md",
+    "Archieve/沈向洋-如何阅读论文.md",
+    "组会",
+    "Archieve/Untitled.md",
+    "[English (auto-generated)] Is the West Getting China Wrong_ - Keyu Jin & Gideon Rachman _ Intelligence Squared [DownSub.com].txt",
     "Excalidraw/Drawing 2023-06-27 01.18.54.excalidraw.md",
     "Excalidraw",
-    "沈向洋-如何阅读论文.md",
     "2023-06-27.md",
     "Untitled.canvas"
   ]
