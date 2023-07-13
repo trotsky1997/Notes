@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8f9fc4a96866193d",
+        "id": "1d81f9dd32fa30dc",
         "type": "tabs",
         "children": [
           {
-            "id": "96ef43fa1d23fe5b",
+            "id": "c2c8af26bbb47bd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组会/Untitled.md",
+                "file": "2022_Song_Denoising Diffusion _KEY-5ILZRRSP.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0a5496abe741870f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组会/Untitled.md",
+                "file": "2022_Song_Denoising Diffusion _KEY-5ILZRRSP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "组会/Untitled.md",
+                "file": "2022_Song_Denoising Diffusion _KEY-5ILZRRSP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "组会/Untitled.md"
+                "file": "2022_Song_Denoising Diffusion _KEY-5ILZRRSP.md"
               }
             }
+          },
+          {
+            "id": "47217178d2b2b36a",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,13 +157,20 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-to-notion:Share to notion": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "96ef43fa1d23fe5b",
+  "active": "1e539052311df38e",
   "lastOpenFiles": [
-    "Untitled.md",
+    "undefined_Hoogeboom_Equivariant Diffusio_KEY-YVY5CXCR.md",
     "组会/Untitled.md",
+    "2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
+    "2022_Song_Denoising Diffusion _KEY-5ILZRRSP.md",
+    "paper/Recovering Graph Signals from Folded Samples.md",
+    "dataview",
+    "Untitled.md",
     "Archieve/新建文本文档.md",
     "Archieve",
     "Archieve/README.md",

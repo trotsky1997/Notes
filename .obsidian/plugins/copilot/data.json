@@ -1,0 +1,20 @@
+{
+  "openAIApiKey": "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",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "azureOpenAIApiKey": "",
+  "azureOpenAIApiInstanceName": "",
+  "azureOpenAIApiDeploymentName": "",
+  "azureOpenAIApiVersion": "",
+  "defaultModel": "gpt-3.5-turbo",
+  "defaultModelDisplayName": "GPT-3.5",
+  "temperature": 0.7,
+  "maxTokens": 1000,
+  "contextTurns": 3,
+  "useNotesAsContext": false,
+  "userSystemPrompt": "",
+  "stream": true,
+  "embeddingProvider": "openai",
+  "debug": false
+}

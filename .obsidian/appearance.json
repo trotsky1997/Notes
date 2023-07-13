@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "theme": "system",
+  "nativeMenus": true,
+  "translucency": true
 }
