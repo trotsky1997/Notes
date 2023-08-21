@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DPO.md",
+                "file": "2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
                 "mode": "source",
                 "source": false
               }
@@ -180,11 +180,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "c2c8af26bbb47bd4",
+  "active": "3c5a0d04edb558c7",
   "lastOpenFiles": [
     "2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
-    "dpo+variational.md",
     "DPO.md",
+    "dpo+variational.md",
     "ELBO and KL div..md",
     "RLHF.md",
     "Chat-2023_08_20-18_04_57.md",
