@@ -9573,7 +9573,7 @@ var require_base = __commonJS({
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.RequiredError = exports.BaseAPI = exports.COLLECTION_FORMATS = exports.BASE_PATH = void 0;
     var axios_1 = require_axios2();
-    exports.BASE_PATH = "https://api.openai.com/v1".replace(/\/+$/, "");
+    exports.BASE_PATH = "http://127.0.0.1:13376/v1".replace(/\/+$/, "");
     exports.COLLECTION_FORMATS = {
       csv: ",",
       ssv: " ",

@@ -1353,7 +1353,7 @@ var require_base = __commonJS({
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.RequiredError = exports.BaseAPI = exports.COLLECTION_FORMATS = exports.BASE_PATH = void 0;
     var axios_1 = require_axios2();
-    exports.BASE_PATH = "https://api.openai.com/v1".replace(/\/+$/, "");
+    exports.BASE_PATH = "http://127.0.0.1:13376/v1".replace(/\/+$/, "");
     exports.COLLECTION_FORMATS = {
       csv: ",",
       ssv: " ",
@@ -3688,7 +3688,7 @@ var AICommanderPlugin = class extends import_obsidian2.Plugin {
       messages,
       stream: true
     });
-    const response = await fetch("https://api.openai.com/v1/chat/completions", {
+    const response = await fetch("http://127.0.0.1:13376/v1/chat/completions", {
       method: "POST",
       body,
       headers: {
@@ -3855,7 +3855,7 @@ whisper-1\r
     const post_string_encoded = new TextEncoder().encode(post_string);
     const concatenated = await new Blob([pre_string_encoded, audioBuffer, post_string_encoded]).arrayBuffer();
     const options = {
-      url: "https://api.openai.com/v1/audio/transcriptions",
+      url: "http://127.0.0.1:13376/v1/audio/transcriptions",
       method: "POST",
       contentType: `multipart/form-data; boundary=----${randomBoundryString}`,
       headers: {
