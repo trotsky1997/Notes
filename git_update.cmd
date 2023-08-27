@@ -1,1 +1,3 @@
-git add .;git commit -m "update";git push -f
+git add .
+git commit -m "update"
+git push -f
