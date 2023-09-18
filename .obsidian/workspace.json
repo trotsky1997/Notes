@@ -8,43 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94eed9699929545d",
+            "id": "f8a7f9c04f39f850",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper/Untitled.md",
+                "file": "LM Agents and its applications in AI4Chem.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7015b048b6fc7ac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper/RLHF.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9863659081e8f592",
+            "id": "e935891d3806d493",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper/2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
-                "mode": "preview",
+                "file": "paper/MRKL.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f8a7f9c04f39f850",
+            "id": "6cb7f3a6f5457946",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper/DPO.md",
+                "file": "lesson/EAP/1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0fbbbe0a5433c09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "把解决鸡兔同笼问题的不同思路列个表.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b809aad30bbcaa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper/2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5813521d0956a2f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper/OPRO.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -73,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper/DPO.md",
+                "file": "paper/OPRO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paper/DPO.md",
+                "file": "paper/OPRO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper/DPO.md"
+                "file": "paper/OPRO.md"
               }
             }
           },
@@ -163,7 +211,7 @@
             }
           },
           {
-            "id": "73ceba058dc27559",
+            "id": "a31472546ae22aee",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -171,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -179,38 +227,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "publish:Publish changes...": false,
-      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "workspaces:管理工作区布局": false,
+      "publish:发布更改": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-to-notion:Share to notion": false,
       "copilot:Copilot Chat": false
     }
   },
-  "active": "f8a7f9c04f39f850",
+  "active": "5813521d0956a2f7",
   "lastOpenFiles": [
+    "把解决鸡兔同笼问题的不同思路列个表.md",
+    "paper/ELBO and KL div..md",
+    "paper/paper reading prompt.md",
+    "paper/ReAct.md",
     "LM Agents and its applications in AI4Chem.md",
+    "paper/2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
+    "paper/OPRO.md",
+    "lesson/EAP/1.md",
+    "paper/MRKL.md",
+    "lesson/EAP",
+    "paper/RLHF.md",
+    "paper/DPO.md",
+    "paper/Untitled.md",
+    "paper/dpo+variational.md",
     "lesson/Untitled",
     "Untitled",
     "lesson",
-    "paper/2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
     "I2SB.md",
-    "paper/Untitled.md",
-    "paper/DPO.md",
-    "paper/ELBO and KL div..md",
-    "paper/dpo+variational.md",
     "paper/Chat-2023_08_20-18_04_57.md",
     "Chat-2023_08_28-02_25_31.md",
     "paper/undefined_Hoogeboom_Equivariant Diffusio_KEY-YVY5CXCR.md",
-    "paper/RLHF.md",
     "git_update.cmd",
     "新建 文本文档.txt",
     "paper/Recovering Graph Signals from Folded Samples.md",
@@ -226,9 +281,6 @@
     "组会",
     "Archieve/Untitled.md",
     "[English (auto-generated)] Is the West Getting China Wrong_ - Keyu Jin & Gideon Rachman _ Intelligence Squared [DownSub.com].txt",
-    "Excalidraw/Drawing 2023-06-27 01.18.54.excalidraw.md",
-    "Excalidraw",
-    "2023-06-27.md",
     "Untitled.canvas"
   ]
 }
