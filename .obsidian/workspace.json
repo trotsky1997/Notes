@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f8a7f9c04f39f850",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LM Agents and its applications in AI4Chem.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7015b048b6fc7ac2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paper/RLHF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e935891d3806d493",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paper/MRKL.md",
+                "file": "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,45 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a0fbbbe0a5433c09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "把解决鸡兔同笼问题的不同思路列个表.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b809aad30bbcaa9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paper/2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5813521d0956a2f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paper/OPRO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 293.5
   },
   "right": {
     "id": "0a5496abe741870f",
@@ -158,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper/OPRO.md",
+                "file": "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paper/OPRO.md",
+                "file": "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper/OPRO.md"
+                "file": "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md"
               }
             }
           },
@@ -217,13 +156,32 @@
               "type": "copilot-chat-view",
               "state": {}
             }
+          },
+          {
+            "id": "f01d324c1b717c4f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "7e832ed97e7162eb",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,33 +197,38 @@
       "publish:发布更改": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-to-notion:Share to notion": false,
-      "copilot:Copilot Chat": false
+      "copilot:Copilot Chat": false,
+      "obsidian42-brat:BRAT": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5813521d0956a2f7",
+  "active": "c28935e5a042853b",
   "lastOpenFiles": [
+    "paper/Bayesian Optimization in a Billion Dimensions.md",
+    "未命名.md",
+    "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md",
+    "paper/2022_Rombach_High-Resolution Imag_KEY-46C8LY3N.md",
+    "paper/Untitled.md",
+    "paper/undefined_Hoogeboom_Equivariant Diffusio_KEY-YVY5CXCR.md",
+    "paper/RLHF.md",
+    "paper/ReAct.md",
+    "paper/OPRO.md",
+    "paper/LM Agents and its applications in AI4Chem.md",
+    "paper/dpo+variational.md",
+    "paper/DPO.md",
+    "paper/Chat-2023_08_20-18_04_57.md",
+    "paper/MRKL.md",
+    "lesson/EAP/1.md",
     "把解决鸡兔同笼问题的不同思路列个表.md",
     "paper/ELBO and KL div..md",
     "paper/paper reading prompt.md",
-    "paper/ReAct.md",
-    "LM Agents and its applications in AI4Chem.md",
     "paper/2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
-    "paper/OPRO.md",
-    "lesson/EAP/1.md",
-    "paper/MRKL.md",
     "lesson/EAP",
-    "paper/RLHF.md",
-    "paper/DPO.md",
-    "paper/Untitled.md",
-    "paper/dpo+variational.md",
     "lesson/Untitled",
     "Untitled",
     "lesson",
-    "I2SB.md",
-    "paper/Chat-2023_08_20-18_04_57.md",
+    "paper/I2SB.md",
     "Chat-2023_08_28-02_25_31.md",
-    "paper/undefined_Hoogeboom_Equivariant Diffusio_KEY-YVY5CXCR.md",
     "git_update.cmd",
     "新建 文本文档.txt",
     "paper/Recovering Graph Signals from Folded Samples.md",
@@ -274,12 +237,8 @@
     "paper/2022_Song_Denoising Diffusion _KEY-5ILZRRSP.md",
     "组会/Untitled.md",
     "dataview",
-    "Archieve/新建文本文档.md",
     "Archieve",
-    "Archieve/README.md",
-    "Archieve/沈向洋-如何阅读论文.md",
     "组会",
-    "Archieve/Untitled.md",
     "[English (auto-generated)] Is the West Getting China Wrong_ - Keyu Jin & Gideon Rachman _ Intelligence Squared [DownSub.com].txt",
     "Untitled.canvas"
   ]

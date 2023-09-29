@@ -1,0 +1,29 @@
+{
+  "literatureNoteFolder": "LiteratureNotes",
+  "zoteroDataDir": "C:\\Users\\aka\\Zotero",
+  "citationLibrary": 1,
+  "autoRefresh": true,
+  "mode": "copy",
+  "imgExcerptPath": "ZtImgExcerpt",
+  "level": "INFO",
+  "template": {
+    "folder": "ZtTemplates",
+    "templates": {
+      "filename": "<%= it.citekey ?? it.DOI ?? it.title ?? it.key %>.md",
+      "citation": "[@<%= it.citekey %>]",
+      "altCitation": "@<%= it.citekey %>"
+    }
+  },
+  "autoPairEta": false,
+  "updateAnnotBlock": false,
+  "updateOverwrite": false,
+  "autoTrim": [
+    false,
+    false
+  ],
+  "citationEditorSuggester": true,
+  "showCitekeyInSuggester": true,
+  "enableServer": true,
+  "serverPort": 9091,
+  "serverHostname": "127.0.0.1"
+}

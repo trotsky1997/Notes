@@ -4,11 +4,16 @@
   "dataview",
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
-  "obsidian-to-notion",
-  "copilot",
   "ai-commander",
   "obsidian-annotator",
   "obsidian-zotero-desktop-connector",
   "obsidian-advanced-uri",
-  "obsidian-completr"
+  "obsidian-completr",
+  "copilot",
+  "chem",
+  "cmdr",
+  "obsidian-markmind",
+  "obsidian42-brat",
+  "zotlit",
+  "mermaid-tools"
 ]
