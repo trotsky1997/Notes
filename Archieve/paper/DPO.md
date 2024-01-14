@@ -12,11 +12,7 @@ $$
 p^*(y_1\succ y_2\mid x)=\frac{\exp\left(r^*(x,y_1)\right)}{\exp\left(r^*(x,y_1)\right)+\exp\left(r^*(x,y_2)\right)}.
 $$
 
- 假设我们从一个偏好函数分布
-
-$p^{*}$
-
-中采样出静态比较数据集三元组 
+ 假设我们从一个偏好函数分布$p^{*}$中采样出静态比较数据集三元组 
 
 $\mathcal{D}=\left\{x^{(i)},y_w^{(i)},y_l^{(i)}\right\}_{i=1}^N$
 
@@ -157,5 +153,3 @@ $$
 
 比如生成结果是”吃“，吃的index 是135 ,对应输出头向量是\[batch,length,..y..\]，135 = argmax{y},$\pi\{...吃...|Prompt\} = log\_softmax(logit[135])$
 
-迈向自评估aaa
-假设我们有两个策略网络，分别代表输出头和自评估头，

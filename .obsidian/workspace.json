@@ -8,30 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e935891d3806d493",
+            "id": "ecdf86b607d07ed4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md",
-                "mode": "source",
-                "source": false
+                "file": "DPO.pdf"
               }
             }
           },
           {
-            "id": "6cb7f3a6f5457946",
+            "id": "0010754daae9d28e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lesson/EAP/1.md",
+                "file": "ChemSpider for Chemical LLM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md",
+                "file": "ChemSpider for Chemical LLM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md",
+                "file": "ChemSpider for Chemical LLM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md"
+                "file": "ChemSpider for Chemical LLM.md"
               }
             }
           },
@@ -163,7 +162,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -180,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,44 +202,43 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c28935e5a042853b",
+  "active": "0010754daae9d28e",
   "lastOpenFiles": [
-    "paper/Bayesian Optimization in a Billion Dimensions.md",
+    "DPO.pdf",
+    "ChemSpider for Chemical LLM.md",
+    "未命名",
+    "paper/I2SB.md",
+    "v2ray.assets/狼人杀.md",
+    "paper/RLHF.md",
+    "paper/ReAct.md",
+    "paper/DEER.md",
+    "paper/DPO.md",
     "未命名.md",
+    "未命名.pdf",
+    "paper/ELBO and KL div..md",
+    "paper/dpo+variational.md",
+    "paper/Chat-2023_08_20-18_04_57.md",
+    "paper/LM Agents and its applications in AI4Chem.md",
+    "LLM/BiZO.md",
+    "v2ray.assets/Untitled.md",
+    "LLM",
+    "v2ray.assets/Chat-2023_08_28-02_25_31.md",
+    "v2ray.assets/未命名.md",
     "paper/Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings.md",
+    "paper/Bayesian Optimization in a Billion Dimensions.md",
     "paper/2022_Rombach_High-Resolution Imag_KEY-46C8LY3N.md",
     "paper/Untitled.md",
     "paper/undefined_Hoogeboom_Equivariant Diffusio_KEY-YVY5CXCR.md",
-    "paper/RLHF.md",
-    "paper/ReAct.md",
     "paper/OPRO.md",
-    "paper/LM Agents and its applications in AI4Chem.md",
-    "paper/dpo+variational.md",
-    "paper/DPO.md",
-    "paper/Chat-2023_08_20-18_04_57.md",
     "paper/MRKL.md",
     "lesson/EAP/1.md",
-    "把解决鸡兔同笼问题的不同思路列个表.md",
-    "paper/ELBO and KL div..md",
-    "paper/paper reading prompt.md",
-    "paper/2020_Ho_Denoising Diffusion _KEY-HIEWLPRH.md",
+    "v2ray.assets/把解决鸡兔同笼问题的不同思路列个表.md",
     "lesson/EAP",
     "lesson/Untitled",
     "Untitled",
     "lesson",
-    "paper/I2SB.md",
-    "Chat-2023_08_28-02_25_31.md",
     "git_update.cmd",
     "新建 文本文档.txt",
-    "paper/Recovering Graph Signals from Folded Samples.md",
-    "Python笔记/python笔记.md",
-    "DeepMind X UCL讲座系列/DeepMind x UCL  Deep Learning Lectures  812  Attention and Memory in Deep Learning.md",
-    "paper/2022_Song_Denoising Diffusion _KEY-5ILZRRSP.md",
-    "组会/Untitled.md",
-    "dataview",
-    "Archieve",
-    "组会",
-    "[English (auto-generated)] Is the West Getting China Wrong_ - Keyu Jin & Gideon Rachman _ Intelligence Squared [DownSub.com].txt",
     "Untitled.canvas"
   ]
 }
