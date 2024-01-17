@@ -11,10 +11,8 @@
             "id": "ecdf86b607d07ed4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DPO.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -23,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChemSpider for Chemical LLM.md",
+                "file": "试验记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ChemSpider for Chemical LLM.md",
+                "file": "试验记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ChemSpider for Chemical LLM.md",
+                "file": "试验记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChemSpider for Chemical LLM.md"
+                "file": "试验记录.md"
               }
             }
           },
@@ -169,7 +167,7 @@
             }
           },
           {
-            "id": "7e832ed97e7162eb",
+            "id": "478c313a46fbbd6c",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -177,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -202,7 +200,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0010754daae9d28e",
+  "active": "478c313a46fbbd6c",
   "lastOpenFiles": [
     "DPO.pdf",
     "ChemSpider for Chemical LLM.md",
