@@ -1,0 +1,7 @@
+\textbf{Human Preference Modeling:}
+
+In aim of modeling human preference of domain tasks, We noticed that there is available and high-quality user preference data in the stack exchange data set, so that for each user question, there are multiple answers corresponding to it, and the answers are clear due to the existence of user likes. The partial order relationship makes it naturally suitable for modeling real human preferences. With reference to the random sampling enhanced binary sampling DPO data proposed in zephyr and the special properties of the construction strategy and domain tasks, we designed the following preference data sample synthesis algorithm:
+
+For each user question $Q$, there is a set of answers A, and each answer $A_i$ has a number of likes $L_i$; for each number of likes $L_i$, there is a set of answers $A_i^*$, and a set of answers with a number of likes less than $L_i$ Answers $A_i'$; traverse each answer $A_i^*_j$ in $A_i^*$ as the $A_{accepted}$ answer in the DPO algorithm, randomly sample an answer $A_i'j$ from $A_i'$ as the $A_{rejected}$ answer in the DPO algorithm, Question $Q$ constitutes a data sample $\{Q,A_{accepted},A_{rejected}\}$ that can be used for DPO algorithm to model real human preferences.
+
+Following this idea, we obtained SciPref, the first data set dedicated to the preference optimization of large language models in the scientific field, and used the chemical sub-items in it for the DPO training stage of the model.
